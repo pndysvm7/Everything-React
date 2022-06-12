@@ -1,5 +1,6 @@
 Do not use this 
-import { useState } from "react"; 
+
+`import { useState } from "react"; 
 export default function App() { 
 
     let [value, setValue] = useState(5); 
@@ -14,14 +15,14 @@ export default function App() {
             </h1> 
         </div> 
     ); 
-} 
+} `
 
 
 
 
 Instead Try this
 
-import { useState } from "react";
+`import { useState } from "react";
 
 // use This function for conditional Rendering
 // you can also declare it in some other js file and import it
@@ -55,4 +56,4 @@ export default function App() {
       </h1>
     </div>
   );
-}
+}`
